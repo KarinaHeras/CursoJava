@@ -7,7 +7,9 @@ package app.presentacion;
 
 import app.modelo.Caracteristicas;
 import app.modelo.MaterialEscolar;
+import app.modelo.Muebles;
 import app.modelo.Producto;
+import app.modelo.Ropa;
 
 /**
  *
@@ -36,10 +38,15 @@ public class Herencia {
         System.out.println(c1);
         System.out.println("Precio oferta: "+ c1.precioOferta(0.1f));
             
-            
-            
-            
-            
+//Ropa
+
+        Ropa r1 = new Ropa(40, "Azul", "Licra", "blusa", 9.5f, 2, "ropa");
+        System.out.println(r1.toString());
+
+//Muebles
+
+     Muebles m1 = new Muebles(100f, 50f, 90f, "blanco","Aglomerado", "escritorio", 45, ¡1, "mueble");
+      System.out.println(m1);
    
     
 }
