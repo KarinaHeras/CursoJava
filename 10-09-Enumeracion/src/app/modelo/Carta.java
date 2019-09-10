@@ -5,8 +5,6 @@
  */
 package app.modelo;
 
-import java.util.Objects;
-
 /**
  *
  * @author Tarde.A3
@@ -16,6 +14,7 @@ public class Carta {
     //Atributo 
     private Palo p1;
     private Numeros n1;
+    boolean dada;
  //Constructores 
 
     public Carta() {
@@ -27,6 +26,8 @@ public class Carta {
     }
   
     //Metodos 
+    public type type();
+    
 //Getter y Setter 
 
     public Palo getP1() {

@@ -26,6 +26,9 @@ public class Enumeracion {
  c1.setP1(Palo.DIAMANTES);
  c1.setN1(Numeros.REY);
         System.out.println(c1.toString());
+        
+Carta c2 = New Carta(Palo.TREBOLES,Numeros.AS);
+        System.out.println(c2.toString());
     }
     
 }
